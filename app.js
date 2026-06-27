@@ -97,6 +97,10 @@
 
 // console.log(smallestNum)
 
+
+
+
+
 // Task 6
 // Second Largest Number
 
@@ -129,13 +133,74 @@
 
 // Task 7
 // Dublicate Number
-// var numbers = [1, 2, 3, 2, 3];
+// var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1, 2, 3, 4];
+// var count = 0;
 
 // for (var i = 0; i < numbers.length; i++) {
-//   for (var z = i + 1; z < numbers.length; z++) {
-//     if (numbers[i] === numbers[z]) {
-//       console.log(numbers[i]);
-//       break;
+//     for (var z = i + 1; z < numbers.length; z++) {
+//         if (numbers[i] === numbers[z]) {
+//             // console.log(numbers[i]);
+//             count += numbers[i].length;
+//             break;
+//         }
 //     }
-//   }
 // }
+
+// console.log(count)
+
+
+// In Class 
+// Largest Number 
+// var numbers = [1, 2, 3, 4, 5, 6, 7, 9, 10]
+
+// var LargestNumber = numbers[0];
+// var secondLargestNumber = numbers[0];
+
+
+
+// for (var i = 0; i < numbers.length; i++) {
+//     var iteration = numbers[i];
+//     if (iteration > LargestNumber){
+//         LargestNumber = iteration;
+//     }
+//  }
+
+//  for (var i = 0; i < numbers.length; i++) {
+//     var iteration = numbers[i];
+//     if (iteration > secondLargestNumber && iteration < LargestNumber){
+//         secondLargestNumber = iteration;
+//     }
+//  }
+
+//  console.log(LargestNumber);
+//  console.log(secondLargestNumber);
+
+
+// Nested Loop 
+// var firstName = ["Muhammad", "Ali"];
+// var lastName = ["Hamza", "Kamran", "Luqman", "Bilal"];
+
+// for (var i = 0; i < firstName.length; i++) {
+//     var prefix = firstName[i];
+//     for (var j = 0; j < lastName.length; j++) {
+//         var suffix = lastName[j];
+//         console.log(prefix, suffix);
+//     }
+// }
+
+
+
+// HardTask 
+
+var numbers = [1, 2, 3, 1, 2];
+var dublicateNum = 0;
+
+for (var i = 0; i < numbers.length; i++) {
+    var prefix = numbers[i];
+    for (var j = i + 1; j < numbers.length; j++) {
+        var suffix = numbers[j];
+        if (prefix === suffix) {
+            console.log(prefix)
+        }
+    }
+}
