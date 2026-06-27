@@ -192,15 +192,40 @@
 
 // HardTask 
 
-var numbers = [1, 2, 3, 1, 2];
-var dublicateNum = 0;
+// var numbers = [1, 2, 3, 1, 2];
+// var dublicateNum = 0;
 
-for (var i = 0; i < numbers.length; i++) {
-    var prefix = numbers[i];
-    for (var j = i + 1; j < numbers.length; j++) {
-        var suffix = numbers[j];
-        if (prefix === suffix) {
-            console.log(prefix)
-        }
-    }
+// for (var i = 0; i < numbers.length; i++) {
+//     var prefix = numbers[i];
+//     for (var j = i + 1; j < numbers.length; j++) {
+//         var suffix = numbers[j];
+//         if (prefix === suffix) {
+//             console.log(prefix)
+//         }
+//     }
+// }
+
+
+
+// var userWord = prompt("Enter your word")
+// var word = "moon";
+var word = "mom";
+var reverseWord = "";
+
+
+
+for (var i = word.length - 1; i >= 0; i--){
+    var iteration = word[i];
+    reverseWord = reverseWord + iteration;
 }
+
+
+// console.log(reverseWord)
+
+if (word === reverseWord){
+    console.log("It is a Palindrome")
+   
+} else {
+        console.log("It is not a Palindrome")
+
+    }
