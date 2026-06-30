@@ -164,7 +164,7 @@ if (word === reverseWord){
 
 // if (word === reverseWord){
 //     console.log("It is a Palindrome")
-   
+
 // } else {
 //     console.log("It is not a Palindrome")
 // }
@@ -182,27 +182,32 @@ if (word === reverseWord){
 
 // revese 
 // for (var i = 10; i >= 0; i--){
-    
+//     console.log(i)
 // }
 
 // let numbers = [1,2,3,4,5]
 
+// Casing in JavaScript
+// let text = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias nemo laborum explicabo aliquid autem expedita unde rem beatae officiis impedit."
 
-// let word = "mom";
-// let word = "reffer";
-// let word = "boy";
-// let result = "";
-// for (let i = word.length -1; i >= 0; i--){
-//     result += word[i];
-    // console.log(i);
-    
+// // console.log(text.toUpperCase());
+// console.log(text.toLowerCase());
+
+// Task 
+// let fruits = ["apple", "mango", "cherry", "banana", "guava", "Orange"];
+// let userFruits = "MAngo";
+// let isFound = false;
+// for (let i = 0; i < fruits.length; i++) {
+//     let iteration = fruits[i];
+//     if (iteration === userFruits.toLowerCase()) {
+//         isFound = true;
+//         break;
+//     }
 // }
-
-// console.log(result);
-// if (word === result){
-//     console.log("It's a palindrome word")
+// if (isFound === true) {
+//     console.log("It is available");
 // } else {
-//     console.log("It's not a palindrome word")
+//     console.log("It is not available");
 // }
 
 // let name = "Hassan";
@@ -212,4 +217,3 @@ if (word === reverseWord){
 
 
 // console.table([name , age, gender]);
->>>>>>> 942480a (In class practice)
