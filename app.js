@@ -145,25 +145,71 @@ if (word === reverseWord){
 
 
 
+
+//Palindrome
 // var userWord = prompt("Enter your word")
 // var word = "moon";
-var word = "mom";
-var reverseWord = "";
+// var word = "mom";
+// var reverseWord = "";
 
 
 
-for (var i = word.length - 1; i >= 0; i--){
-    var iteration = word[i];
-    reverseWord = reverseWord + iteration;
-}
+// for (var i = word.length - 1; i >= 0; i--){
+//     var iteration = word[i];
+//     reverseWord = reverseWord + iteration;
+// }
 
 
 // console.log(reverseWord)
 
-if (word === reverseWord){
-    console.log("It is a Palindrome")
+// if (word === reverseWord){
+//     console.log("It is a Palindrome")
    
-} else {
-        console.log("It is not a Palindrome")
+// } else {
+//     console.log("It is not a Palindrome")
+// }
 
+<<<<<<< HEAD
     }
+=======
+
+
+// H.W 
+// Loop 
+// for (var i = 0; i <= 10; i++){
+//     console.log(i)
+// }
+
+// revese 
+// for (var i = 10; i >= 0; i--){
+    
+// }
+
+// let numbers = [1,2,3,4,5]
+
+
+// let word = "mom";
+// let word = "reffer";
+// let word = "boy";
+// let result = "";
+// for (let i = word.length -1; i >= 0; i--){
+//     result += word[i];
+    // console.log(i);
+    
+// }
+
+// console.log(result);
+// if (word === result){
+//     console.log("It's a palindrome word")
+// } else {
+//     console.log("It's not a palindrome word")
+// }
+
+// let name = "Hassan";
+// let age = 21;
+// // let class = "web Development";
+// let gender = true;
+
+
+// console.table([name , age, gender]);
+>>>>>>> 942480a (In class practice)
